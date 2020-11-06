@@ -1,0 +1,20 @@
+[
+
+    {
+        "title": "Perfil",
+        "icon": "fa-user",
+        "color": "text-gray-400"
+    },
+    {
+        "title": "Configuraciones de la cuenta",
+        "icon": "fa-cogs",
+        "color": "text-gray-400"
+    },
+    {
+        "title": "Cerrar Sesión",
+        "icon": "fa-sign-out-alt",
+        "color": "text-gray-400"
+    }
+
+
+]

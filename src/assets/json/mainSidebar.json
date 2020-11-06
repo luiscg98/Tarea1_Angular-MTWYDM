@@ -1,0 +1,31 @@
+[{
+        "section": "",
+        "title": "Página de inicio",
+        "icon": "fa-tachometer-alt",
+        "route": ["/home"],
+        "items": []
+    },
+    {
+        "section": "Interface",
+        "title": "Productos",
+        "icon": "fa-cog",
+        "route": ["/dashboard"],
+        "items": []
+    },
+    {
+        "section": "Components",
+        "title": "Historiales de ventas",
+        "icon": "fa-user",
+        "route": ["/ventas"],
+        "items": []
+
+    },
+    {
+        "section": "Components",
+        "title": "Entregas",
+        "icon": "fa-user",
+        "route": ["/entregas"],
+        "items": []
+
+    }
+]
