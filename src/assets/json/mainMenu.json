@@ -3,17 +3,20 @@
     {
         "title": "Perfil",
         "icon": "fa-user",
-        "color": "text-gray-400"
+        "color": "text-gray-400",
+        "route": "/usuario/perfil"
     },
     {
         "title": "Configuraciones de la cuenta",
         "icon": "fa-cogs",
-        "color": "text-gray-400"
+        "color": "text-gray-400",
+        "route": "/usuario/config"
     },
     {
         "title": "Cerrar Sesión",
         "icon": "fa-sign-out-alt",
-        "color": "text-gray-400"
+        "color": "text-gray-400",
+        "route": "/usuario/config"
     }
 
 

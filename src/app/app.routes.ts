@@ -10,6 +10,7 @@ const routes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'dashboard', component: TablerosComponent},
     { path: 'login', component: LoginComponent},
+    { path: 'usuario', loadChildren: () => import('./pages/usuario/usuario.module').then(module => module.UsuarioModule) },
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: PageNotFoundComponent }
 ];

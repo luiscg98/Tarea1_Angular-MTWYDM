@@ -9,6 +9,7 @@ import { FooterComponent } from './components/navigation/footer/footer.component
 import { HomeComponent } from './pages/home/home.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { AppRouterModule } from './app.routes';
+import { UsuarioComponent } from './pages/usuario/usuario.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AppRouterModule } from './app.routes';
     TopbarComponent,
     FooterComponent,
     HomeComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    UsuarioComponent
   ],
   imports: [
     BrowserModule,
