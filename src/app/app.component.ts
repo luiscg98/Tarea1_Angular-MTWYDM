@@ -16,8 +16,9 @@ export class AppComponent implements OnInit {
 
 
   title = 'app-real-time';
-  miEmpresa = 'Grupo Flecha Amarilla';
-  periodo = 2020;
+  miEmpresa = 'Inventarios Hospitalarios';
+  fecha = new Date();
+  periodo = this.fecha.getFullYear();
 
   menuItems:any[] = [];
   sidebarItems:any[] = [];
